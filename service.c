@@ -289,8 +289,8 @@ service_load(char *path)
 static void
 service_init_cb(struct ubus_request *req, int type, struct blob_attr *msg)
 {
-	struct blob_attr *cur;
-	int rem;
+	// struct blob_attr *cur;
+	// int rem;
 
 	get_hostname();
 
